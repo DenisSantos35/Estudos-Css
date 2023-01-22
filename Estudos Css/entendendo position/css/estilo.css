@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 300vh;
+}
+
+.container{
+    /*position: fixed; deixa o elemnto fixo na pagina ao movimentar o scroll*/
+
+    /*margin-top: 20vh;
+    position: sticky;
+    top: 0; utilizado para no momento que o scrool for rolar ele pare na tela e fixa*/ 
+
+    /*left: 200px;
+    top: 150px;
+    margin-top: 20vh; 
+    position: relative; desloca em relacao asi mesmo para left, top, bottom ou right*/
+
+    margin-top: 40vh;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    
+    
+}
+
+.box{
+    position: absolute; /*se o pai tiver relative ele faz as configuraçoes dentro do pai se o pai nao tiver ele fica absoluto do elemento html. */
+    top: 30px;
+    left:20px;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    
+    
+}
