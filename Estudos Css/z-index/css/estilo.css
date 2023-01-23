@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bloco1, .bloco2, .bloco3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+   
+}
+
+.bloco1{
+    background-color: red;
+    top:0;
+    left:0;
+    /*Para utilizar o z-index e necessario determinar uma posição seja fixa relativa ou absoluta*/
+    z-index: 1; /*alterna se o elemento vem para frente ou fica para traz */
+}
+
+.bloco2{
+    background-color: blue;
+    top: 30px;
+    left: 150px;
+    z-index: 2;
+}
+.bloco3{
+    background-color: green;
+    top:60px;
+    left:300px;
+    z-index: 3;
+}
+
