@@ -19,14 +19,14 @@
     display: flex;
     justify-content: space-between; 
     margin: auto;    
-    width: 800px;
-    height: 100px;
+    width: 100vw;
+    height: calc(100vh - 80vh);
     padding: 30px;
 }
 .container .menu{      
     display: flex;
     align-items: center;
-    height: 5%;
+    
 }
 .container nav li a{
     color: var(--white);
@@ -49,8 +49,8 @@
 }
 .corpo{
     margin: auto;
-    width: 800px;
-    max-height: 200vh;
+    width: 100vw;
+    max-height: 100vh;
     overflow: hidden;
 }
 .corpo{
