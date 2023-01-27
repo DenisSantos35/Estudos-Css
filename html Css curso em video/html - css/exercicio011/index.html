@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexivel</title>
+</head>
+<body>
+    <h1>Imagem flexivel</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência</p>
+    <picture>
+        <source media="(max-width: 450px)" srcset="imagemDinamica/viagem-200.jpg" type="image/jpg">
+        <source media="(max-width: 750px )" srcset="imagemDinamica/viagem-400.jpg" type="image/jpg">
+        <source media="(max-width: 1050px )" srcset="imagemDinamica/viagem-700.jpg" type="image/jpg">
+        <source media="(max-width:1250px )" srcset="imagemDinamica/viagem-1000.jpg" type="image/jpg">
+        <img src="imagemDinamica/viagem-1200.jpg" alt="Imagem 1200px">
+    </picture>
+    
+</body>
+</html>

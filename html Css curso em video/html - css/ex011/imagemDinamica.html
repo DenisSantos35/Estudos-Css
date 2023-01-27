@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagemDinamica/imagemPequena-300.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagemDinamica/imagemMedia-700.png" type="image/png">       
+        <img src="imagemDinamica/imagemGrande-1000.png" alt="Imagem tamanho 1000px">
+    </picture>
+    <h1>Reproduzindo Audios</h1>
+    <p>Vamos reproduzir audios em HTML5</p>
+    <!--<audio src="midias/ReadAllOver.mp3" controls autoplay>Musica</audio>-->
+    
+    <audio autoplay controls preload="metadata" loop muted  >
+                
+        <source src="midias/ReadAllOver.ogg" type="audio/ogg">
+        <source src="midias/ReadAllOver.wav" type="audio/wav">
+        <source src="midias/ReadAllOver.mp3" type="audio/mpeg">
+        <p>Infelizmente não conseguimos carregar nenhum audio.</p>
+        <p>Para baixar o arquivo mp3 <a href="midias/ReadAllOver.mp3">clique Aqui...</a></p>
+    </audio>
+    <hr>
+   
+    
+</body>
+</html>
