@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta hopedado no meu próprio servidor</p>
+    <!--<video src="midias/mpeg.m4v" width="400px" preload="metadata" autoplay controls loop></video> forma simples so se passa um parametro -->
+    <video width="560px" height="315" poster="imagens/limao-full.jpg" controls preload="metadata">
+        <source src="midias/webm.webm" type="video/webm">
+        <source src="midias/Pexels Videos original.mp4" type="video/mp4">
+    </video>
+    <h1>Colocando videos com links externos</h1>  
+    <div style="text-align: center;">
+        <iframe width="400" height="300"  src="https://www.youtube.com/embed/9eThXjopUm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>     
+    <div style="text-align: center;">
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/PDHIyrfMl_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/pdDbV7LS8eA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>    
+    
+    
+</body>
+</html>
