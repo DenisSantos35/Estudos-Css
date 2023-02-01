@@ -6,7 +6,7 @@
     --title: #313131;
     --text: #B6B6B6;
     
-    --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+    --linear: linear-gradient(90deg, #574AE8 10%, #3EA1DB 100%);
   }
 
 .corpo-projeto{
