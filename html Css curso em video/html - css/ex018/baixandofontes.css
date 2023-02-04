@@ -1,5 +1,25 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'love' ;
+    src: url('fonts/love larry ttf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mdmn';
+    src: url('fonts/MidnightMinutes_DEMO.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'social media';
+    src: url('fonts/Social Media Circled.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 *{
     font-family: Arial, Helvetica, sans-serif;
@@ -26,9 +46,12 @@ h1{
     color:#348888;
     text-shadow:3px 3px 5px black;
     font: normal normal 2em 'Permanent Marker', arial, helvetica, cursive, sans-serif;
+    font-family:'mdmn', 'Times New Roman', Times, serif;
+    font-size: 3em;
 }
 h1, h2{
     text-align: center;
+    
 }
 main{
     background-color: #fff;
@@ -39,4 +62,16 @@ h2{
     color: #F24405;
     padding-bottom: 30px;
     text-shadow: 5px 5px 10px rgba(183, 94, 6, 0.75) ;
+    font-family: 'love', 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+ul{
+    text-align: center;
+    padding-top: 10px;
+}
+li{
+    display: inline;
+}
+a{
+    font-family: 'social media', 'Times New Roman', Times, serif;
 }
