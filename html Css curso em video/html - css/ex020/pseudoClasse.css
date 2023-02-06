@@ -1,0 +1,29 @@
+#um{
+    background-color: green;
+}
+#dois{
+    background-color: yellow;
+    right: 200px;
+}
+#tres{
+    background-color: red;
+}
+div{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;   
+}
+#um:hover {
+    width: 210px;
+    height: 210px;
+}
+#dois:hover{
+    width: 210px;
+    height: 210px;
+}
+#tres:hover{
+    width: 210px;
+    height: 210px;
+}

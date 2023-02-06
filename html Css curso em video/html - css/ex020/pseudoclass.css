@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*font-family: 'Cinzel', serif;
+font-family: 'EB Garamond', serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cinzel:wght@400;500;600;700;800;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*font-family: 'Abel', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+font-family: 'Montserrat Alternates', sans-serif;*/
+
+/*Configuração Global*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+/*Colocar cor de fundo no bady*/
+body{
+    background-color: rgba(242, 198, 182, 0.5);
+}
+/*montar cores do header*/
+header{
+    background-image: linear-gradient(90deg, #8C3616 0%,#A67360 50%, #8C3616 100%);
+    padding: 40px;
+}
+/*montar cores de fundo do main*/
+main{
+    background-color: white;
+    padding: 20px;
+}
+/*Ajustar largura, margem do header e do main*/
+header, main{
+    width: 80vw;
+    margin: auto;
+    box-shadow: 3px 3px 6px rgb(121, 98, 89, 0.6);
+}
+#titulo-header{
+    font: normal 500 3em 'Cinzel', serif;
+    text-align: center;
+    color: rgba(242, 234, 233, 0.8);
+    text-shadow: 3px 3px 5px rgba(242, 234, 233, 0.8);
+}
+h1{
+    font: italic 600 2em 'Abel', sans-serif;
+    text-align: center;
+    text-decoration: 2px underline;
+    color: #8C3616;
+    text-shadow: 2px 2px 4px rgba(104, 39, 16, 0.7);
+}
+.destaque-h1{
+    background-image: linear-gradient(45deg, #F2C6B6 0%, #F2EAE9 50%, #F2C6B6 100%);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #F2C6B6 ;
+    margin: 20px 0;
+    outline: 1px solid #A67360;
+}
+h2{
+    font:normal 600 1.5em 'Abel', sans-serif;
+}
+.destaque-h2{
+    background-image: linear-gradient(0deg, #A67360 0%, #F2C6B6 50%, #A67360 100%);
+    border-radius: 5px;
+    margin: 20px 0;
+    width: 50%;
+    text-align: center;
+    box-shadow: 3px 3px 5px ;
+    
+}
+.h2-basico{
+    color: #e86b3e;
+    text-shadow: 2px 2px 4px rgb(166, 115, 96);
+    
+}
+.h2-intermediario{
+    color:#BF5934;
+    text-shadow: 2px 2px 4px rgba(140, 54, 22, 0.8);
+}
+.h2-avancado{
+    color: #582817;
+    text-shadow: 2px 2px 4px #A67360 ;
+}
+div{    
+    display: inline-block;
+    width: 92px;
+    height: 92px;
+    margin: 20px 20px 10px 0px;
+    background-image: linear-gradient(90deg, #A67360 0%, #F2C6B6 50%, #F2EAE9 100%);
+    
+}
+.imagens:hover{
+    width: 100px;
+    height: 100px;
+}
+p{
+    text-indent: 20px;
+}
+.marcador{
+    color: rgb(255, 0, 0);
+}
+.marcador:hover{
+    color:blue;
+    text-decoration: underline;
+
+}
+
+div#div-intermediaria{
+    background-image: linear-gradient(90deg, #fff 0%, #fff 50%, #fff 100%);
+    width: 300px;
+    height: 30px; 
+    color:rgb(255, 0, 0);
+    
+}
+div#div-intermediaria > p{
+    display: none;    
+}
+div#div-intermediaria:hover{
+    color:rgb(0, 0, 255);
+}
+div#div-intermediaria:hover > p{
+    display: block;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    background-image: linear-gradient(90deg, #A67360 0%, #F2C6B6 50%, #F2EAE9 100%);
+}
+ul{
+    margin: 20px 0;
+}
+a{
+    color:rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover{
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+a:visited{
+    color: rgb(96, 52, 96)
+}
+a:active{
+    color: rgb(255, 255, 0);
+}
+.especial{
+    background-image: linear-gradient(90deg, #A67360 0%, #F2C6B6 50%, #F2EAE9 100%);
+}
+.especial::before{
+    content: '➭';
+}
+.especial::after{
+    content: '⇐ [link]';
+}
+a::before{
+    content: '☞';
+    font-weight: normal;
+    text-decoration: none;
+    color:red    
+}
+a::after{
+    content: '☜ [link]';
+    font-weight: normal;
+    text-decoration: none;
+    color:red
+}
+
+
+
+
