@@ -31,6 +31,9 @@ header{
     
     margin: auto;
 }
+header, main{
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.665) ;
+}
 
 #titulo-site{
     text-align: center;
@@ -59,6 +62,7 @@ li > a:hover{
     text-decoration: underline;
     font-size: 1.1em;
     color: #87CEEB;
+    background-color: #434343;
     
 }
 li > a:active{
@@ -82,17 +86,23 @@ h2{
 p{
     text-indent: 30px;
 }
+
 article > p{
     background-color: #E5E4E2;
     padding: 15px;
     
+    
 }
 div{
-    margin: 10px auto;
-    background-color: red;
+    margin: 10px auto;    
     width: 300px;
     height: 200px;
     
+    
+}
+.bola{
+    border-radius: 40%;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.481);
 }
 div > aside{
     display: none;
