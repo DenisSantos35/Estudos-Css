@@ -33,6 +33,8 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    text-align: justify;
 }
 
 body{
@@ -54,6 +56,21 @@ nav{
 }
 main{
     background-color: var(--branco);
+    padding: 20px;
+    margin: auto;
+    min-width: 100px;
+    max-width: 800px;
+}
+img{
+    width: 100%;
+}
+div{
+    padding: 10px;
+    background-color: var(--cor5);
+}
+iframe{
+    width: 100%;
+    border-radius: 10px;
 }
 main h1{
     font-family: var(--font-decoracao);
