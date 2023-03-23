@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iframe</title>
+    <style>
+        iframe{
+            width: 360px;
+            height: 200px;
+            border: 1px dashed black;
+        }
+    </style>
 </head>
 <body>
     <h1>Testing the use of a iframe</h1>
@@ -12,9 +19,16 @@
         Acesing the <a href="https://www.cursoemvideo.com" target="_blank" rel="external">course website in video</a> to learn the to progran
     </p>
     <p>
-        Acesing the website <iframe src="https://www.cursoemvideo.com" frameborder="0"></iframe> to learn the to progran
+        <!--Por padrão iframe vem com width= 300px; heigth:150px; -->
+        Acesing the website <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500px" scolling="auto">
+            <a href="https://www.cursoemvideo.com">Acesse o site do curso em video</a>
+        </iframe> to learn the to progran
     </p>
-    <p>the website of <iframe src="https://www.google.com.br" frameborder="0"></iframe> is very well</p>
+    <p> O repositorio do Guanabara 
+        <iframe src="https://gustavoguanabara.github.io" frameborder="0" width="500px" height="500px"></iframe>
+
+        tambem e bem legal
+    </p>
     
 </body>
 </html>
